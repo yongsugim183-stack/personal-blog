@@ -12,7 +12,7 @@ export default function AboutPage() {
         <ul>
           <li>
             이메일:{" "}
-            <a href="mailto:yongsugim183@gmail.com">yongsugim183@gmail.com</a>
+            <a href="mailto:ysukim@kpc.or.kr">ysukim@kpc.or.kr</a>
           </li>
         </ul>
       </div>
