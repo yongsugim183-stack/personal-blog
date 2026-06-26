@@ -16,10 +16,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ko" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100">
         <Header />
-        <main className="flex-1 max-w-3xl mx-auto w-full px-4 py-10">
-          {children}
-        </main>
-        <footer className="border-t border-gray-100 dark:border-gray-800 py-6 text-center text-sm text-gray-400">
+        <div className="flex-1 bg-slate-100 dark:bg-gray-900 py-10 px-4">
+          <main className="max-w-3xl mx-auto bg-white dark:bg-gray-950 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 px-8 py-10 min-h-[60vh]">
+            {children}
+          </main>
+        </div>
+        <footer className="bg-slate-100 dark:bg-gray-900 border-t border-slate-200 dark:border-gray-800 py-6 text-center text-sm text-gray-400">
           © 2026 김용수. All rights reserved.
         </footer>
       </body>
