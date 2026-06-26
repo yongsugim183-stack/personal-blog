@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",
+    "@uiw/react-md-editor": "^4.1.1",
+    "cookies-next": "^6.1.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.21.0",
     "next": "16.2.9",
